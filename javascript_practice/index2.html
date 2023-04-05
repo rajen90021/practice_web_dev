@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="main">
+       to the the html page sssssssssssss
+       <-- <h1>helooo</h1> -->
+    <!-- </div> -->
+    <!-- <div class="main"> -->
+        <!-- to the the html page  -->
+        <!-- <h1>helooo</h1> -->
+     <!-- </div>sss  -->
+     <!-- <h1 id="res"></h1> -->
+     <input type="text" name="name" id="name"/>
+     <button onclick="greet()"> click me</button>
+     <div class="greet">
+
+     </div>
+</body>
+<script type="text/javascript">
+//    var v= document.getElementById("main").innerHTML;
+//    console.log(v);
+
+//  var c=document.getElementById("main").innerHTML="<h1> welcome to the page</h1>";
+//  console.log(c);
+// var v=document.getElementsByClassName("main");
+// 
+// var x=5;
+// var y=10;
+// var c=x+y;
+// document.getElementById('res').innerHTML=c;
+// console.log(v);
+// alert(v);
+function greet(){
+    // alert("yes");
+    var name=document.getElementById('name').value;
+    // alert(name);
+    var String="helloo "+name;
+    document.getElementsByClassName('greet')[0].innerHTML = String;
+}
+</script>
+</html>
